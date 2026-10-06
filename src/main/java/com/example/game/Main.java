@@ -13,6 +13,7 @@ public class Main {
         Game.screens().add(new GameScreen());
         ICamera camera = Game.world().camera();
         camera.setFocus(315,410);
+        Game.graphics().setBaseRenderScale(1.0f);
         Game.world().loadEnvironment("untitled");
         Game.start();
     }
