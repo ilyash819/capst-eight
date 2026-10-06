@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<litidata version="1.0">
+ <maps>
+  <map version="1.1" tiledversion="1.12.2" orientation="orthogonal" renderorder="right-down" width="45" height="30" tilewidth="32" tileheight="32" infinite="0" parallaxoriginx="0.0" parallaxoriginy="0.0" nextlayerid="3" nextobjectid="1" name="untitled">
+   <tileset firstgid="1" source="ddddddddddddddd-pixilart.tsx"/>
+   <layer id="1" name="Tile Layer 1" width="45" height="30">
+    <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+   </layer>
+   <layer id="2" name="Tile Layer 2" width="45" height="30">
+    <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,13,13,13,13,13,13,13,13,13,13,13,13,13,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,12,11,12,11,12,11,12,11,12,11,12,11,12,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,19,19,19,19,19,19,19,19,19,19,19,19,19,21,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,19,19,19,19,19,19,19,19,19,19,19,19,19,21,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,37,37,37,37,37,37,37,37,37,37,37,37,37,37,37,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,37,37,37,37,37,37,37,37,37,37,37,37,37,37,37,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,37,37,37,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+   </layer>
+   <objectgroup id="0" name="default" visible="1"/>
+  </map>
+ </maps>
+ <spriteSheets>
+  <sprite width="32" height="32" imageformat="PNG" name="ddddddddddddddd-pixilart">
+   <image>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</image>
+  </sprite>
+ </spriteSheets>
+ <tilesets>
+  <tileset firstgid="0" name="ddddddddddddddd-pixilart" tilewidth="32" tileheight="32" tilecount="64" columns="8">
+   <image source="Downloads/ddddddddddddddd-pixilart.png" width="256" height="256"/>
+  </tileset>
+ </tilesets>
+ <emitters/>
+ <blueprints/>
+ <sounds/>
+</litidata>

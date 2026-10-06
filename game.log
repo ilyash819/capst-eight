@@ -1,0 +1,12 @@
+Oct 06, 2026 9:18:34 AM de.gurkenlabs.litiengine.DefaultUncaughtExceptionHandler uncaughtException
+SEVERE: Game crashed! :(
+java.lang.NullPointerException
+	at java.base/java.util.Objects.requireNonNull(Objects.java:220)
+	at de.gurkenlabs.litiengine.resources.ResourceBundle.getResourceBundleFromUrl(ResourceBundle.java:389)
+	at de.gurkenlabs.litiengine.resources.ResourceBundle.load(ResourceBundle.java:162)
+	at de.gurkenlabs.litiengine.resources.Resources.load(Resources.java:178)
+	at de.gurkenlabs.litiengine.resources.Resources.load(Resources.java:166)
+	at com.example.game.Main.main(Main.java:12)
+
+Oct 06, 2026 9:19:18 AM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
+WARNING: Tiled version 1.12.2 of map "untitled" is greater than the supported version 1.10.x. Some features may not work.
