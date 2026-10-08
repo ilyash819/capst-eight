@@ -16,6 +16,6 @@ public class Main {
         Game.graphics().setBaseRenderScale(1.0f);
         Game.world().loadEnvironment("untitled");
         Game.start();
-        System.out.println("test change");
+        System.out.println("test change #2");
     }
 }
