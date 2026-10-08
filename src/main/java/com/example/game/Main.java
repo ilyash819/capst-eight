@@ -7,7 +7,7 @@ import de.gurkenlabs.litiengine.*;
 
 public class Main {
 
-    public static void main(String[] args) {
+    static void main(String[] args) {
         Game.init(args);
         Resources.load("game1.litidata");
         Game.screens().add(new GameScreen());
@@ -16,5 +16,6 @@ public class Main {
         Game.graphics().setBaseRenderScale(1.0f);
         Game.world().loadEnvironment("untitled");
         Game.start();
+        System.out.println("test change");
     }
 }
