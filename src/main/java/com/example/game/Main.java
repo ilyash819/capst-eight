@@ -8,7 +8,11 @@ import de.gurkenlabs.litiengine.*;
 public class Main {
 
     static void main(String[] args) {
+        Game.info().setName("Hilbert's In Finite Hotel");
+        Game.info().setVersion("v0.0.01");
+
         Game.init(args);
+
         Resources.load("game1.litidata");
         Game.screens().add(new GameScreen());
         ICamera camera = Game.world().camera();
@@ -16,6 +20,5 @@ public class Main {
         Game.graphics().setBaseRenderScale(1.0f);
         Game.world().loadEnvironment("untitled");
         Game.start();
-        System.out.println("test change #2");
     }
 }
