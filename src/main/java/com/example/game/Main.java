@@ -13,12 +13,12 @@ public class Main {
 
         Game.init(args);
 
-        Resources.load("game1.litidata");
+        Resources.load("game.litidata");
         Game.screens().add(new GameScreen());
         ICamera camera = Game.world().camera();
-        camera.setFocus(315,410);
+        camera.setFocus(315,710);
         Game.graphics().setBaseRenderScale(1.0f);
-        Game.world().loadEnvironment("untitled");
+        Game.world().loadEnvironment("infinite_map");
         Game.start();
     }
 }
