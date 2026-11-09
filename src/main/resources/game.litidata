@@ -5,7 +5,11 @@
    <tileset firstgid="1" source="ddddddddddddddd-pixilart (1).tsx"/>
    <layer id="1" name="Tile Layer 1" width="15" height="5">
     <data encoding="csv">
-             
+                                 
+     
+     
+     
+     
      
      <chunk x="0" y="-16" width="16" height="16">
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
@@ -25,7 +29,11 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 18,18,18,1,18,18,18,17,18,18,18,17,18,18,18,17
 </chunk>
-             
+                                 
+     
+     
+     
+     
      
      <chunk x="16" y="-16" width="16" height="16">
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
@@ -45,7 +53,11 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 18,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </chunk>
-             
+                                 
+     
+     
+     
+     
      
      <chunk x="0" y="0" width="16" height="16">
 34,34,34,34,34,34,34,34,34,34,34,34,34,34,34,34,
@@ -65,7 +77,11 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </chunk>
-             
+                                 
+     
+     
+     
+     
      
      <chunk x="16" y="0" width="16" height="16">
 51,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
@@ -85,47 +101,41 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </chunk>
-            
+                                
+    
+    
+    
+    
     
     </data>
    </layer>
    <objectgroup id="0" name="default" visible="1">
-    <object id="1" type="CREATURE" x="256" y="128" width="32" height="32">
+    <object id="2" type="COLLISIONBOX" x="0" y="-32" width="544" height="32">
      <properties>
-      <property name="addShadow" type="bool" value="true"/>
-      <property name="collision" type="bool" value="true"/>
+      <property name="collisionAlign" value="CENTER"/>
+      <property name="collisionType" value="STATIC"/>
+      <property name="collisionValign" value="DOWN"/>
+      <property name="renderType" value="NORMAL"/>
+     </properties>
+    </object>
+    <object id="3" type="COLLISIONBOX" x="0" y="320" width="544" height="32">
+     <properties>
+      <property name="collisionAlign" value="CENTER"/>
+      <property name="collisionType" value="STATIC"/>
+      <property name="collisionValign" value="DOWN"/>
+      <property name="renderType" value="NORMAL"/>
+     </properties>
+    </object>
+    <object id="4" type="SPAWNPOINT" x="224" y="128" width="32" height="32">
+     <properties>
       <property name="collisionAlign" value="CENTER"/>
       <property name="collisionType" value="DYNAMIC"/>
       <property name="collisionValign" value="DOWN"/>
-      <property name="collisionboxHeight" value="12.8"/>
-      <property name="collisionboxWidth" value="12.8"/>
-      <property name="hitpoints" value="100"/>
-      <property name="indestructible" type="bool" value="false"/>
+      <property name="collisionboxHeight" value="32.0"/>
+      <property name="collisionboxWidth" value="32.0"/>
       <property name="renderType" value="NORMAL"/>
       <property name="spawnDirection" value="DOWN"/>
-      <property name="spritesheetName" value="tophatguy"/>
-     </properties>
-    </object>
-    <object id="2" type="TRIGGER" x="0" y="-32" width="544" height="32">
-     <properties>
-      <property name="collisionAlign" value="CENTER"/>
-      <property name="collisionType" value="DYNAMIC"/>
-      <property name="collisionValign" value="DOWN"/>
-      <property name="collisionboxHeight" value="32.0"/>
-      <property name="collisionboxWidth" value="32.0"/>
-      <property name="renderType" value="NORMAL"/>
-      <property name="triggerActivation" value="COLLISION"/>
-     </properties>
-    </object>
-    <object id="3" type="TRIGGER" x="0" y="320" width="544" height="32">
-     <properties>
-      <property name="collisionAlign" value="CENTER"/>
-      <property name="collisionType" value="DYNAMIC"/>
-      <property name="collisionValign" value="DOWN"/>
-      <property name="collisionboxHeight" value="32.0"/>
-      <property name="collisionboxWidth" value="32.0"/>
-      <property name="renderType" value="NORMAL"/>
-      <property name="triggerActivation" value="COLLISION"/>
+      <property name="spawnPivot" value="DIMENSION_CENTER"/>
      </properties>
     </object>
    </objectgroup>
@@ -239,6 +249,18 @@
    <image>iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAA9klEQVR4Xu2SwQ3CMBAE008+PKkhHeRDpxTAgx540cahjeTI2QP7vA7KJyONFIFvzkEMw0kME90Fm6ZJErMcU+C3arUb92ZRMcsxBReOilmOKbhwVMxyTMHez5skZjnWwvpH4nDUvLEpB9j8jPzTRuUO7SjCg7LdF9hLNHlJDfc2ncqYve6SmOWYgguXzM/jmWMKbknJ/DyeOabglpTMz+OZYwpuScn8PJ45puCWRMUsxxRSaJUX0UK2G5vneSM++2b6Hjwu1/9doOZ5gcMvkC6BWY4p2DiOi7zkl+k8ZjmmsAZbxSzHFJYQx2umOWrJ5MEWT6p8ADrLqjaMDRH5AAAAAElFTkSuQmCC</image>
   </sprite>
   <sprite width="32" height="32" imageformat="PNG" name="tophatguy-idle-up">
+   <image>iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAA8ElEQVR4Xu3TzQ2CQBRFYfqhEzpgY6eWYA+ubGPMJYEM5wm+H5bc5GwM8yFEh+He/7VipbVpmkrJIBoZnyZbeuaJoskgGpkBo8kgGpkBo8kgGln7vB6lZBD1bPsBEYzWW7s7nGz3+vhKo9HDvX6OB8qlv8DVyebNjmae4qJCa+39vCRZxD0zUDZZxD0zUDZZxD0zUDZZxD0zUDZZxD0zUDZZxD3jX2iJOOP1XeG1eZ5N+vwsXt+dCc9A2WQR98xA2WQR98xA2WQR98xA2WQR96yN47hE0Nt6XhZxzzagmizini0HiUVbHdju9UCle4f7AmInc4mlCybOAAAAAElFTkSuQmCC</image>
+  </sprite>
+  <sprite width="32" height="32" imageformat="PNG" name="tophatguy-walk-down">
+   <image>iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAA20lEQVR4Xu2SsQ2DQBAE6YfEoWugAxJ3SgEO3IMjt/HWIj069gy+5YjQjzQJ5ubvkbuu8Z+SNEUZhiElGhxV4Nsc9TDuRqpocFTBBVXR4KiCC6qiwVGF8nk9UqLB0QjLH4iDqra1OmGH1efjT6rKPTrrJzyQ9vACZ4s2H7aFu8VJSpTynk4RLY5HcCEbjDxrC1x3AVW0OB6hDq7kOMvvG2XKOI5OPN+T3zczMi5kBc/bfRbw722BayzQ9/0sB+0Se4fXebQ4HmEJZEWL4xHmQY6p1g61w9hAxsYmX+UXc00DOoPgAAAAAElFTkSuQmCC</image>
+  </sprite>
+  <sprite width="32" height="32" imageformat="PNG" name="tophatguy-walk-left">
+   <image>iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAA4ElEQVR4Xu2SsQ3CMBBFs08aSmbIBm7YlAEo2IGKNQ59S7bib4jP3yko/KTXkNw7O2JZJj5M9BRs2zZJzHJMgW/V6zDVzbxilmMKVdgrZjmmUIW9YpZjCvZ+3iQxy7Ee8h+Jw173jaLsoPiM/Gm9cod2HMKDssMHOEs0eUmL6jaDypi97pKY5ZhCEeQlR+J9jinMA/zPAXrFLMcUUijLi2ghO4w9LlcDIYQofvtmek7vDVMdwCtmOaYwDyAtP/UA67pGecEv0/uY5ZhCDvaKWY4pxBDHW6Y5asnsgz1OmnwAnXOqNtOQgB8AAAAASUVORK5CYII=</image>
+  </sprite>
+  <sprite width="32" height="32" imageformat="PNG" name="tophatguy-walk-right">
+   <image>iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAA9klEQVR4Xu2SwQ3CMBAE008+PKkhHeRDpxTAgx540cahjeTI2QP7vA7KJyONFIFvzkEMw0kME90Fm6ZJErMcU+C3arUb92ZRMcsxBReOilmOKbhwVMxyTMHez5skZjnWwvpH4nDUvLEpB9j8jPzTRuUO7SjCg7LdF9hLNHlJDfc2ncqYve6SmOWYgguXzM/jmWMKbknJ/DyeOabglpTMz+OZYwpuScn8PJ45puCWRMUsxxRSaJUX0UK2G5vneSM++2b6Hjwu1/9doOZ5gcMvkC6BWY4p2DiOi7zkl+k8ZjmmsAZbxSzHFJYQx2umOWrJ5MEWT6p8ADrLqjaMDRH5AAAAAElFTkSuQmCC</image>
+  </sprite>
+  <sprite width="32" height="32" imageformat="PNG" name="tophatguy-walk-up">
    <image>iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAA8ElEQVR4Xu3TzQ2CQBRFYfqhEzpgY6eWYA+ubGPMJYEM5wm+H5bc5GwM8yFEh+He/7VipbVpmkrJIBoZnyZbeuaJoskgGpkBo8kgGpkBo8kgGln7vB6lZBD1bPsBEYzWW7s7nGz3+vhKo9HDvX6OB8qlv8DVyebNjmae4qJCa+39vCRZxD0zUDZZxD0zUDZZxD0zUDZZxD0zUDZZxD0zUDZZxD3jX2iJOOP1XeG1eZ5N+vwsXt+dCc9A2WQR98xA2WQR98xA2WQR98xA2WQR96yN47hE0Nt6XhZxzzagmizini0HiUVbHdju9UCle4f7AmInc4mlCybOAAAAAElFTkSuQmCC</image>
   </sprite>
  </spriteSheets>

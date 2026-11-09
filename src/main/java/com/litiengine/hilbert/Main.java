@@ -1,4 +1,4 @@
-package com.example.game;
+package com.litiengine.hilbert;
 import de.gurkenlabs.litiengine.Game;
 import de.gurkenlabs.litiengine.resources.Resources;
 import de.gurkenlabs.litiengine.gui.screens.GameScreen;
@@ -19,12 +19,12 @@ public class Main {
         ICamera camera = Game.world().camera();
         camera.setFocus(315,710);
 
-        Game.graphics().setBaseRenderScale(1.5f);
+        Game.graphics().setBaseRenderScale(1.7f);
         Game.world().loadEnvironment("infinite_map");
-        IEntity entity = Game.world().environment().get("tophatguy");
-        if (entity != null) {
-            Game.world().camera().setFocus(entity.getCenter());
-        }
+
         Game.start();
+
+        Spawnpoint spawn = Game.world().environment().getSpawnpoint(4);
+        spawn.spawn(TopHatGuy.instance());
     }
 }

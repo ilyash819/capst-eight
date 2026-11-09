@@ -4,7 +4,7 @@ plugins {
     id("com.gradleup.shadow") version "8.3.6"
 }
 
-group = "com.example.game"
+group = "com.litiengine.hilbert"
 version = "1.0-SNAPSHOT"
 
 repositories {
@@ -23,14 +23,14 @@ dependencies {
 }
 
 application {
-    mainClass.set("com.example.game.Main")
+    mainClass.set("com.litiengine.hilbert.Main")
     applicationDefaultJvmArgs = listOf("--enable-native-access=ALL-UNNAMED")
 }
 
 tasks.shadowJar {
     archiveClassifier.set("all")
     manifest {
-        attributes["Main-Class"] = "com.example.game.Main"
+        attributes["Main-Class"] = "com.litiengine.hilbert.Main"
     }
 }
 
