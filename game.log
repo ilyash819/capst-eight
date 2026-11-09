@@ -124,3 +124,5 @@ Nov 08, 2026 8:29:06 PM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap 
 WARNING: Tiled version 1.12.2 of map "infinite_map" is greater than the supported version 1.10.x. Some features may not work.
 Nov 08, 2026 8:29:06 PM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
 WARNING: Tiled version 1.12.2 of map "untitled" is greater than the supported version 1.10.x. Some features may not work.
+Nov 08, 2026 9:08:06 PM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
+WARNING: Tiled version 2024.05.28 of map "infinite_map" is greater than the supported version 1.10.x. Some features may not work.

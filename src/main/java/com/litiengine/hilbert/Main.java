@@ -24,7 +24,7 @@ public class Main {
 
         Game.start();
 
-        Spawnpoint spawn = Game.world().environment().getSpawnpoint(4);
+        Spawnpoint spawn = Game.world().environment().getSpawnpoint(1);
         spawn.spawn(TopHatGuy.instance());
     }
 }
