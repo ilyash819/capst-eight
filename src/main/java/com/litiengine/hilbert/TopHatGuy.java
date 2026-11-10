@@ -3,7 +3,6 @@ package com.litiengine.hilbert;
 import de.gurkenlabs.litiengine.entities.*;
 import de.gurkenlabs.litiengine.input.KeyboardEntityController;
 import de.gurkenlabs.litiengine.physics.*;
-import java.awt.event.KeyEvent;
 
 @EntityInfo(width = 32, height = 32)
 @CollisionInfo(collisionBoxWidth = 12, collisionBoxHeight = 12, collision = true, collisionType = Collision.STATIC)

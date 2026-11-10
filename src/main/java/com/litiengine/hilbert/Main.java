@@ -13,6 +13,7 @@ public class Main {
         Game.info().setVersion("v0.0.01");
 
         Game.init(args);
+        HotelLogic.init();
 
         Resources.load("game.litidata");
         Game.screens().add(new GameScreen());
@@ -20,11 +21,8 @@ public class Main {
         camera.setFocus(315,710);
 
         Game.graphics().setBaseRenderScale(1.7f);
-        Game.world().loadEnvironment("infinite_map");
 
         Game.start();
-
-        Spawnpoint spawn = Game.world().environment().getSpawnpoint(1);
-        spawn.spawn(TopHatGuy.instance());
+        Game.world().loadEnvironment("infinite_map");
     }
 }
