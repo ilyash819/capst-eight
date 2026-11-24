@@ -8,9 +8,9 @@ public class HilbertMovementController extends KeyboardEntityController<TopHatGu
 
     public HilbertMovementController(TopHatGuy e) {
         super(e);
-        this.addUpKey(KeyEvent.VK_W);
-        this.addDownKey(KeyEvent.VK_S);
-        this.addLeftKey(KeyEvent.VK_A);
-        this.addRightKey(KeyEvent.VK_D);
+        this.addUpKey(KeyEvent.VK_UP);
+        this.addDownKey(KeyEvent.VK_DOWN);
+        this.addLeftKey(KeyEvent.VK_LEFT);
+        this.addRightKey(KeyEvent.VK_RIGHT);
     }
 }

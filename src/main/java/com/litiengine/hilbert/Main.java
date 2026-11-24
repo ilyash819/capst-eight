@@ -13,9 +13,11 @@ public class Main {
         Game.info().setVersion("v0.0.01");
 
         Game.init(args);
-        HotelLogic.init();
 
         Resources.load("game.litidata");
+
+        HotelLogic.init();
+
         Game.screens().add(new GameScreen());
         ICamera camera = Game.world().camera();
         camera.setFocus(315,710);
