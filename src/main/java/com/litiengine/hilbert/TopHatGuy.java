@@ -1,7 +1,6 @@
 package com.litiengine.hilbert;
 
 import de.gurkenlabs.litiengine.entities.*;
-import de.gurkenlabs.litiengine.input.KeyboardEntityController;
 import de.gurkenlabs.litiengine.physics.*;
 
 @EntityInfo(width = 32, height = 32)
@@ -21,7 +20,6 @@ public class TopHatGuy extends Creature {
     }
     @Override
     protected IMovementController createMovementController() {
-        return new KeyboardEntityController<>(this);
-
+        return new HilbertMovementController(this);
     }
 }
